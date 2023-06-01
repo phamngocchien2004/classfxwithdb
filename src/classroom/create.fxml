@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="classroom.CreateClassroom">
+   <children>
+      <Text layoutX="186.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Classroom">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtName" layoutX="46.0" layoutY="117.0" prefHeight="48.0" prefWidth="520.0" promptText="Name" />
+      <TextField fx:id="txtCourse" layoutX="46.0" layoutY="214.0" prefHeight="48.0" prefWidth="520.0" promptText="Course" />
+      <Button onAction="#goToCreate" layoutX="488.0" layoutY="284.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="78.0" text="Add" />
+      <Button onAction="#goToBack" layoutX="46.0" layoutY="42.0" mnemonicParsing="false" text="&lt;&lt;Back" />
+   </children>
+</Pane>
